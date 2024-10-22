@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Saira, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin : 5%;
+    width: 60%;
+    height: auto;
+    padding: 20px;
+    border-radius: 18px;
+    background-color: rgba(255, 0, 0, 0.14);
+    justify-content: center;
+    align-content: center;
+}
+
+.tambah {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 25%;
+    margin-right: auto;
+}
+
+.find{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+.log{
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 22%;
+}
+
+.tambah:hover {
+    background-color: rgb(227, 40, 40);
+}
+
+.find:hover {
+    background-color: rgb(227, 40, 40);
+}
+
+.log:hover{
+    background-color: rgb(227, 40, 40); 
+}
+
+h1{
+    color: brown;
+    text-align: center;
+}
+
+table {
+    border-color: brown;
+    background-color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top : 10px;
+}
+
+th {
+    padding: 8px;
+    color: white;
+    background-color: brown;
+}
+
+.modify{
+    text-align: center;
+    color: brown;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+td {
+    padding: 5px;
+    color: brown;
+    font-weight: 500;
+}

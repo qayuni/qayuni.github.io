@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: Saira, sans-serif;
+    padding: 50px;
+}
+
+
+.container {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(230, 67, 67);
+    border-radius: 15px;
+    position: relative;
+    padding: 20px;
+}
+
+.deco img {
+    width: 60%;
+    height: auto;
+    float: right;
+}
+
+label {
+    font-family: Saira, sans-serif;
+    font-size: medium;
+    margin-left: 20px;
+    color: white;
+}
+
+input{
+    width: 30%;
+    height: 25px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: brown;
+    color: white;
+}
+
+textarea {
+    width: 30%;
+    height: auto;
+    border-radius: 15px;
+    border: none;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: brown;
+    color: white;
+    resize: none;
+}
+
+select {
+    width: 30%;
+    height: auto;
+    border-radius: 15px;
+    border: none;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: brown;
+    color: white;
+}
+
+.brand {
+    text-align: center;
+    padding: 20px;
+}
+
+.text-brand{ 
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    margin: 0;
+    color: white;
+    margin-bottom: 0;
+}
+
+.put {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.submit {
+    margin-top: 8px;
+    background-color: white; 
+    color: brown; 
+    font-weight: 900;
+}
+
+.submit:hover{
+    background-color: brown;
+    color: white;
+}
+
+p {
+    color: brown;
+}
+
+.bkt{
+    margin-top: 0px;
+    color: white;
+    font-size: small;
+    margin-left: 20px;
+}
+
+.bukti {
+    margin-top: 0px;
+    color: rgba(0, 0, 0, 0.656);
+}
+
+
+#fileUpload::file-selector-button {
+    margin-top: 2px;
+    border-radius: 15px;
+    border-color: white;
+    background-color: rgb(219, 43, 43);
+    color: white;
+}
+
+#fileUpload::file-selector-button:hover{
+    margin-top: 2px;
+    border-radius: 15px;
+    border-color: black;
+    background-color: rgb(238, 144, 144);
+    color: brown;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    color: brown;
+    border: none;
+    margin-left: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

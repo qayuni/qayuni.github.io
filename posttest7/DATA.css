@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Saira, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.con {
+    margin-left: 38%;
+}
+
+label {
+    font-size: 15px;
+    color : brown;
+    font-weight : 600;
+}
+
+.container {
+    margin: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.14);
+}
+
+.resi{
+    width: 20%;
+    padding : 5px 10px;
+    border-radius : 8px;
+    box-shadow : 0 0 0 3px rgba(0,0,0,0.1);
+    color : brown;
+    font-weight : 600;
+    border-color : wheat;
+    background-color: rbga (0,0,0,0.1);
+}
+
+.cari{
+    padding : 5px 10px;
+    border-radius : 8px;
+    color : brown;
+    background-color : white;
+    font-weight :600;
+    border-color : wheat;
+    margin-top : 10px;
+}
+
+.tambah {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 7.5%;
+    margin-right: auto;
+}
+
+.tambah:hover {
+    background-color: rgb(227, 40, 40);
+}
+
+.find{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+.find:hover {
+    background-color: rgb(227, 40, 40);
+}
+
+.log{
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 71%;
+}
+
+.log:hover{
+    background-color: rgb(227, 40, 40); 
+}
+
+h1{
+    color: brown;
+    text-align: center;
+}
+
+table {
+    border-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top : 10px;
+}
+
+th {
+    padding: 8px;
+    color: white;
+    background-color: brown;
+}
+
+.modify{
+    text-align: center;
+    color: brown;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+td {
+    padding: 5px;
+    color: brown;
+    font-weight: 500;
+    background-color: white;
+}
